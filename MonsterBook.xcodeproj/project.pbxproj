@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286BB9022B80AFEE00BBB84A /* MonsterBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9012B80AFEE00BBB84A /* MonsterBookApp.swift */; };
+		286BB9042B80AFEE00BBB84A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9032B80AFEE00BBB84A /* ContentView.swift */; };
+		286BB9062B80AFEF00BBB84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286BB9052B80AFEF00BBB84A /* Assets.xcassets */; };
+		286BB9092B80AFEF00BBB84A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286BB9082B80AFEF00BBB84A /* Preview Assets.xcassets */; };
+		286BB9132B81D1D000BBB84A /* MonsterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9122B81D1D000BBB84A /* MonsterCard.swift */; };
+		286BB9152B81D62800BBB84A /* SeeMoreBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9142B81D62800BBB84A /* SeeMoreBT.swift */; };
+		286BB9192B81D82D00BBB84A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9182B81D82D00BBB84A /* HomeScreen.swift */; };
+		286BB91B2B81DB8300BBB84A /* MonsterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB91A2B81DB8300BBB84A /* MonsterModel.swift */; };
+		286BB91D2B81DC0F00BBB84A /* MonsterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB91C2B81DC0F00BBB84A /* MonsterData.swift */; };
+		286BB91F2B83CD6F00BBB84A /* MonsterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB91E2B83CD6F00BBB84A /* MonsterRow.swift */; };
+		286BB9212B83CF9400BBB84A /* MonsterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9202B83CF9400BBB84A /* MonsterDetail.swift */; };
+		286BB9232B84474000BBB84A /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9222B84474000BBB84A /* ImageDetail.swift */; };
+		286BB9252B844D1E00BBB84A /* SearchBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9242B844D1E00BBB84A /* SearchBT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		286BB8FE2B80AFEE00BBB84A /* MonsterBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BB9012B80AFEE00BBB84A /* MonsterBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBookApp.swift; sourceTree = "<group>"; };
+		286BB9032B80AFEE00BBB84A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		286BB9052B80AFEF00BBB84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286BB9082B80AFEF00BBB84A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		286BB9122B81D1D000BBB84A /* MonsterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCard.swift; sourceTree = "<group>"; };
+		286BB9142B81D62800BBB84A /* SeeMoreBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMoreBT.swift; sourceTree = "<group>"; };
+		286BB9182B81D82D00BBB84A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		286BB91A2B81DB8300BBB84A /* MonsterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterModel.swift; sourceTree = "<group>"; };
+		286BB91C2B81DC0F00BBB84A /* MonsterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterData.swift; sourceTree = "<group>"; };
+		286BB91E2B83CD6F00BBB84A /* MonsterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterRow.swift; sourceTree = "<group>"; };
+		286BB9202B83CF9400BBB84A /* MonsterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetail.swift; sourceTree = "<group>"; };
+		286BB9222B84474000BBB84A /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
+		286BB9242B844D1E00BBB84A /* SearchBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBT.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286BB8FB2B80AFEE00BBB84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286BB8F52B80AFEE00BBB84A = {
+			isa = PBXGroup;
+			children = (
+				286BB9002B80AFEE00BBB84A /* MonsterBook */,
+				286BB8FF2B80AFEE00BBB84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286BB8FF2B80AFEE00BBB84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286BB8FE2B80AFEE00BBB84A /* MonsterBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286BB9002B80AFEE00BBB84A /* MonsterBook */ = {
+			isa = PBXGroup;
+			children = (
+				286BB9112B81D1AC00BBB84A /* Custom */,
+				286BB9102B81D19F00BBB84A /* Screen */,
+				286BB90F2B81D19900BBB84A /* Model */,
+				286BB9012B80AFEE00BBB84A /* MonsterBookApp.swift */,
+				286BB9032B80AFEE00BBB84A /* ContentView.swift */,
+				286BB9052B80AFEF00BBB84A /* Assets.xcassets */,
+				286BB9072B80AFEF00BBB84A /* Preview Content */,
+			);
+			path = MonsterBook;
+			sourceTree = "<group>";
+		};
+		286BB9072B80AFEF00BBB84A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				286BB9082B80AFEF00BBB84A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		286BB90F2B81D19900BBB84A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				286BB91A2B81DB8300BBB84A /* MonsterModel.swift */,
+				286BB91C2B81DC0F00BBB84A /* MonsterData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		286BB9102B81D19F00BBB84A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				286BB9182B81D82D00BBB84A /* HomeScreen.swift */,
+				286BB9202B83CF9400BBB84A /* MonsterDetail.swift */,
+				286BB9122B81D1D000BBB84A /* MonsterCard.swift */,
+				286BB91E2B83CD6F00BBB84A /* MonsterRow.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		286BB9112B81D1AC00BBB84A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				286BB9142B81D62800BBB84A /* SeeMoreBT.swift */,
+				286BB9222B84474000BBB84A /* ImageDetail.swift */,
+				286BB9242B844D1E00BBB84A /* SearchBT.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286BB8FD2B80AFEE00BBB84A /* MonsterBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286BB90C2B80AFEF00BBB84A /* Build configuration list for PBXNativeTarget "MonsterBook" */;
+			buildPhases = (
+				286BB8FA2B80AFEE00BBB84A /* Sources */,
+				286BB8FB2B80AFEE00BBB84A /* Frameworks */,
+				286BB8FC2B80AFEE00BBB84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterBook;
+			productName = MonsterBook;
+			productReference = 286BB8FE2B80AFEE00BBB84A /* MonsterBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286BB8F62B80AFEE00BBB84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					286BB8FD2B80AFEE00BBB84A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 286BB8F92B80AFEE00BBB84A /* Build configuration list for PBXProject "MonsterBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286BB8F52B80AFEE00BBB84A;
+			productRefGroup = 286BB8FF2B80AFEE00BBB84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286BB8FD2B80AFEE00BBB84A /* MonsterBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286BB8FC2B80AFEE00BBB84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BB9092B80AFEF00BBB84A /* Preview Assets.xcassets in Resources */,
+				286BB9062B80AFEF00BBB84A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286BB8FA2B80AFEE00BBB84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BB9252B844D1E00BBB84A /* SearchBT.swift in Sources */,
+				286BB91B2B81DB8300BBB84A /* MonsterModel.swift in Sources */,
+				286BB9152B81D62800BBB84A /* SeeMoreBT.swift in Sources */,
+				286BB9212B83CF9400BBB84A /* MonsterDetail.swift in Sources */,
+				286BB91D2B81DC0F00BBB84A /* MonsterData.swift in Sources */,
+				286BB91F2B83CD6F00BBB84A /* MonsterRow.swift in Sources */,
+				286BB9192B81D82D00BBB84A /* HomeScreen.swift in Sources */,
+				286BB9042B80AFEE00BBB84A /* ContentView.swift in Sources */,
+				286BB9022B80AFEE00BBB84A /* MonsterBookApp.swift in Sources */,
+				286BB9132B81D1D000BBB84A /* MonsterCard.swift in Sources */,
+				286BB9232B84474000BBB84A /* ImageDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		286BB90A2B80AFEF00BBB84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		286BB90B2B80AFEF00BBB84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286BB90D2B80AFEF00BBB84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonsterBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jj.MonsterBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286BB90E2B80AFEF00BBB84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonsterBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jj.MonsterBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286BB8F92B80AFEE00BBB84A /* Build configuration list for PBXProject "MonsterBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BB90A2B80AFEF00BBB84A /* Debug */,
+				286BB90B2B80AFEF00BBB84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286BB90C2B80AFEF00BBB84A /* Build configuration list for PBXNativeTarget "MonsterBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BB90D2B80AFEF00BBB84A /* Debug */,
+				286BB90E2B80AFEF00BBB84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286BB8F62B80AFEE00BBB84A /* Project object */;
+}
