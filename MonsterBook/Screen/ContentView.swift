@@ -5,7 +5,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowSetting: Bool = false
+    
     var monster: [Monster] = monsterdata
+    
     var body: some View {
         NavigationView{
             List{
@@ -16,6 +19,17 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Monster")
+            .navigationBarItems(
+                trailing:
+                    Button(action:{
+                        isShowSetting = true
+                    }) {
+                        Image(systemName: "slider.horizontal.3")
+                    }
+                    .sheet(isPresented: $isShowSetting){
+                        SettingView()
+                    }
+            )
         }
     }
 }

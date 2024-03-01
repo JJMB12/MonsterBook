@@ -20,6 +20,9 @@
 		286BB9212B83CF9400BBB84A /* MonsterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9202B83CF9400BBB84A /* MonsterDetail.swift */; };
 		286BB9232B84474000BBB84A /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9222B84474000BBB84A /* ImageDetail.swift */; };
 		286BB9252B844D1E00BBB84A /* SearchBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9242B844D1E00BBB84A /* SearchBT.swift */; };
+		286BB9272B84518000BBB84A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286BB9262B84518000BBB84A /* SettingView.swift */; };
+		286D9A622B8DC7D6007CE719 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D9A612B8DC7D6007CE719 /* SettingRow.swift */; };
+		28BCB7462B85FF240017983F /* ListLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BCB7452B85FF240017983F /* ListLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		286BB9202B83CF9400BBB84A /* MonsterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetail.swift; sourceTree = "<group>"; };
 		286BB9222B84474000BBB84A /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
 		286BB9242B844D1E00BBB84A /* SearchBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBT.swift; sourceTree = "<group>"; };
+		286BB9262B84518000BBB84A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		286D9A612B8DC7D6007CE719 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		28BCB7452B85FF240017983F /* ListLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +75,10 @@
 		286BB9002B80AFEE00BBB84A /* MonsterBook */ = {
 			isa = PBXGroup;
 			children = (
+				286BB9012B80AFEE00BBB84A /* MonsterBookApp.swift */,
 				286BB9112B81D1AC00BBB84A /* Custom */,
 				286BB9102B81D19F00BBB84A /* Screen */,
 				286BB90F2B81D19900BBB84A /* Model */,
-				286BB9012B80AFEE00BBB84A /* MonsterBookApp.swift */,
-				286BB9032B80AFEE00BBB84A /* ContentView.swift */,
 				286BB9052B80AFEF00BBB84A /* Assets.xcassets */,
 				286BB9072B80AFEF00BBB84A /* Preview Content */,
 			);
@@ -100,10 +105,12 @@
 		286BB9102B81D19F00BBB84A /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				286BB9032B80AFEE00BBB84A /* ContentView.swift */,
 				286BB9182B81D82D00BBB84A /* HomeScreen.swift */,
 				286BB9202B83CF9400BBB84A /* MonsterDetail.swift */,
 				286BB9122B81D1D000BBB84A /* MonsterCard.swift */,
 				286BB91E2B83CD6F00BBB84A /* MonsterRow.swift */,
+				286BB9262B84518000BBB84A /* SettingView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -114,6 +121,8 @@
 				286BB9142B81D62800BBB84A /* SeeMoreBT.swift */,
 				286BB9222B84474000BBB84A /* ImageDetail.swift */,
 				286BB9242B844D1E00BBB84A /* SearchBT.swift */,
+				28BCB7452B85FF240017983F /* ListLabel.swift */,
+				286D9A612B8DC7D6007CE719 /* SettingRow.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -196,9 +205,12 @@
 				286BB91F2B83CD6F00BBB84A /* MonsterRow.swift in Sources */,
 				286BB9192B81D82D00BBB84A /* HomeScreen.swift in Sources */,
 				286BB9042B80AFEE00BBB84A /* ContentView.swift in Sources */,
+				28BCB7462B85FF240017983F /* ListLabel.swift in Sources */,
 				286BB9022B80AFEE00BBB84A /* MonsterBookApp.swift in Sources */,
+				286BB9272B84518000BBB84A /* SettingView.swift in Sources */,
 				286BB9132B81D1D000BBB84A /* MonsterCard.swift in Sources */,
 				286BB9232B84474000BBB84A /* ImageDetail.swift in Sources */,
+				286D9A622B8DC7D6007CE719 /* SettingRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +344,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MonsterBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 7325N47683;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MHR;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jj.MonsterBook;
+				PRODUCT_BUNDLE_IDENTIFIER = jj.MHR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,8 +374,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MonsterBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 7325N47683;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MHR;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -372,7 +388,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jj.MonsterBook;
+				PRODUCT_BUNDLE_IDENTIFIER = jj.MHR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

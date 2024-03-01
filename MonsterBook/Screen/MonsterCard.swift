@@ -1,9 +1,6 @@
 //
-//  MonsterCard.swift
-//  MonsterBook
-//
-//  Created by JJ on 18/2/2567 BE.
-//
+// JellyBear.
+
 
 import SwiftUI
 

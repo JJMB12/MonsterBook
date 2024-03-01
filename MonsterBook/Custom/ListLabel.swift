@@ -5,11 +5,21 @@
 import SwiftUI
 
 struct ListLabel: View {
+    var labelText: String
+    var LabelImage: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Text(labelText)
+                .fontWeight(.bold)
+                .textCase(.uppercase)
+            Spacer()
+            Image(systemName: LabelImage)
+        }
     }
 }
 
-#Preview {
-    ListLabel()
+#Preview (traits: .sizeThatFitsLayout) {
+    ListLabel(labelText: "Monster", LabelImage: "info.circle")
+        .padding()
 }

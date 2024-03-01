@@ -1,9 +1,6 @@
 //
-//  MonsterRow.swift
-//  MonsterBook
-//
-//  Created by JJ on 20/2/2567 BE.
-//
+// JellyBear.
+
 
 import SwiftUI
 

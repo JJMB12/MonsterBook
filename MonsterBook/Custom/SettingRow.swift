@@ -5,11 +5,37 @@
 import SwiftUI
 
 struct SettingRow: View {
+    var name: String
+    var content: String? = nil
+    var linklabel: String? = nil
+    var linkDestination: String? = nil
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Divider()
+                .padding(.vertical, 4)
+            HStack{
+                Text(name)
+                    .foregroundStyle(Color.gray)
+                Spacer()
+                if (content != nil) {
+                    Text(content!)
+                } else if (linklabel != nil && linkDestination != nil){
+                    Link(linklabel!, destination: URL(string: "http://\(linkDestination!)")!)
+                    Image(systemName: "arrow.up.right.square")
+                        .foregroundStyle(Color.red)
+                }
+                else {
+                    EmptyView()
+                }
+            }
+        }
     }
 }
 
-#Preview {
-    SettingRow()
+#Preview (traits: .sizeThatFitsLayout){
+    Group{
+        SettingRow(name: "Developer", content: "JellyBear")
+        SettingRow(name: "Wedsite", linklabel: "Monster Hunter Rise", linkDestination: "google.com")
+    }
 }
