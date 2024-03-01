@@ -1,9 +1,6 @@
 //
-//  MonsterBookApp.swift
-//  MonsterBook
-//
-//  Created by JJ on 17/2/2567 BE.
-//
+// JellyBear.
+
 
 import SwiftUI
 
